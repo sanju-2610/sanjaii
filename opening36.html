@@ -1,0 +1,89 @@
+<html>
+<head>
+    <title> MMF </title>    
+<link rel="stylesheet" type="text/css" href="styles.css" />    
+</head>    
+<body onload="myFunction()" style="background-color: rgba(79, 129, 189, 0.9);">
+<div id="loading"></div>    
+<div class="header">
+    <img src="C:\Users\THEJASHWINI\Documents\newproj\mmf_logo.png">
+    <form style="float: none;display:inline-block;line-height:52px;padding-right:140px;">
+        <input type="text" name="searchbar" placeholder="search.." size="70" >
+    </form>
+        <input type="checkbox" id="show">
+        <label for="show" class="show-btn">Login</label>
+        <div class="container">
+            <div class="text">
+                <form action="#">
+                    <div class="data">
+                        <label>Login ID</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="data">
+                        <label>Password</label>
+                        <input type="password" required>
+                    </div>
+                    <div class="btn">
+                        <div class="inner"></div>
+                        <button type="submit">LOGIN</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+</div>
+<br>
+<center><img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=987&amp;q=80" width="250" height="237"></center>
+<style>
+    .blink {
+        animation: blinker 1.5s linear infinite;
+        color: yellow;
+        font-family: sans-serif;
+    }
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+</style>
+<marquee class="blink" direction="right">
+    <h1>READY TO PLACE YOUR ORDER..</h1>
+    </marquee>
+<div class="row">
+    <div class="column">
+        <a href="C:\Users\THEJASHWINI\Documents\newproj\mapmyfood_bf.html"><h2 align="center">BREAKFAST</h2></a>
+        <img src="https://images.pexels.com/photos/36744/agriculture-arable-clouds-countryside.jpg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1" width="110" height="100">
+    </div>
+    <div class="column">
+        <a href="C:\Users\THEJASHWINI\Documents\newproj\mapmyfood_ln.html"><h2 align="center">LUNCH</h2></a>
+        <img src="https://images.unsplash.com/photo-1605226469551-f5833ca74dcf?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1032&amp;q=80" width="110" height="100">
+    </div>
+    <div class="column">
+    <a href="C:\Users\THEJASHWINI\Documents\newproj\mapmyfood_bf.html"><h2 align="center">DINNER</h2></a>
+<img src="https://images.pexels.com/photos/3489072/pexels-photo-3489072.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1" width="110" height="100">
+</div>
+</div>
+
+<script>
+    var preloader = document.getElementById('loading');
+
+    function myFunction(){
+        preloader.style.display='none';
+    }
+    
+</script>
+<br><br>
+<footer>
+    <select name="country" id="country">
+        <option value="INDIA">India</option>
+        <option value="CHINA">China</option>
+        <option value="AMERICA">America</option>
+        <option value="RUSSIA">Russia</option>
+        <option value="JAPAN">Japan</option>
+        <option value="KOREA">Korea</option>
+      </select>
+    <br>
+    <a href="C:\Users\THEJASHWINI\Documents\newproj\FOOTER.html"><h3>FEEDBACK</a></h3>
+</footer>    
+
+</body>
+</html>
